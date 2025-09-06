@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 p-6 grid grid-cols-12 gap-16">
-      {/* Artículo principal */}
+      
       <article className="col-span-9 bg-white p-4 rounded-2xl shadow-md flex items-start ml-15 pr-7">
         <img
           src="/lampara.webp"
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </article>
       
-      {/* Navegación de categorías */}
+      
       <nav className="col-span-2 bg-white p-4 rounded-2xl shadow-md flex flex-col gap-6">
         <button className="text-left px-3 py-2 rounded-lg hover:bg-gray-100 text-black">
           🌍 Global
@@ -53,7 +53,7 @@ export default function Home() {
         </button>
       </nav>
 
-      {/* Artículo secundario */}
+     
       <article className="col-span-3 bg-white p-4 rounded-2xl shadow-md flex flex-col ml-15 row-span-2">
         <img
           src="/coffee.jpg"
@@ -72,7 +72,7 @@ export default function Home() {
         </footer>
       </article>
 
-      {/* Barra de búsqueda */}
+      
       <section className="col-span-5 bg-white p-4 rounded-2xl shadow-md flex flex-col">
         <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
           <input
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Video destacado */}
+      
       <section className="col-span-3 bg-white p-2 rounded-2xl shadow-md flex items-center gap-4">
         <img
           src="/building.jpeg"
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Perfil de usuario */}
+      
       <section className="col-span-6 bg-white p-4 rounded-2xl shadow-md flex items-center mr-4">
         <img
           src="/alexjpg.jpg"
@@ -138,7 +138,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Controles de navegación y filtros */}
+      
       <section className="w-full flex flex-col items-center gap-4 mt-6 ml-15">
         <nav className="flex gap-4">
           <button aria-label="Previous article" className="w-18 h-18 flex items-center justify-center rounded-full bg-white shadow-md hover:bg-gray-100">
