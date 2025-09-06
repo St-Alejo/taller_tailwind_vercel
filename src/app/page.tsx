@@ -34,8 +34,8 @@ export default function Home() {
         </div>
       </article>
       
-      {/* Navegación de categorías */}
-      <nav className="col-span-2 bg-white p-4 rounded-2xl shadow-md flex flex-col gap-6">
+      
+      <nav className="col-span-3 bg-white p-4 rounded-2xl shadow-md flex flex-col gap-6">
         <button className="text-left px-3 py-2 rounded-lg hover:bg-gray-100 text-black">
           🌍 Global
         </button>
@@ -53,7 +53,7 @@ export default function Home() {
         </button>
       </nav>
 
-      
+     
       <article className="col-span-3 bg-white p-4 rounded-2xl shadow-md flex flex-col ml-15 row-span-2">
         <img
           src="/coffee.jpg"
@@ -73,7 +73,7 @@ export default function Home() {
       </article>
 
       
-      <section className="col-span-5 bg-white p-4 rounded-2xl shadow-md flex flex-col">
+      <section className="col-span-6 bg-white p-4 rounded-2xl shadow-md flex flex-col">
         <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
           <input
             type="search"
@@ -85,7 +85,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="flex gap-20 mt-3 text-lg font-semibold text-gray-500">
+        <div className="flex gap-14 mt-3 text-lg font-semibold text-gray-500">
           <span>#Politics</span>
           <span>#Science</span>
           <span>#Movies</span>
@@ -124,14 +124,14 @@ export default function Home() {
         <div className="ml-4">
           <h2 className="text-2xl font-semibold text-black">Alex Morrison</h2>
           <p className="text-sm text-gray-500">Senior Journalist</p>
-          <div className="flex gap-20 mt-2 text-sm text-black bg-gray-100 p-6 rounded-lg">
+          <div className="flex gap-15 mt-2 text-sm text-black bg-gray-100 p-6 rounded-lg">
             <span className="flex flex-col items-center">Articles: <strong className="text-2xl">34</strong></span>
             <span className="flex flex-col items-center">Followers: <strong className="text-2xl">980</strong></span>
             <span className="flex flex-col items-center">Rating: <strong className="text-2xl">8.9</strong></span>
           </div>
           <div className="flex gap-3 mt-3">
-            <button className="w-50 p-4 bg-gray-200 rounded-lg text-black">Chat</button>
-            <button className="w-50 bg-blue-500 text-white rounded-lg">
+            <button className="w-40 p-4 bg-gray-200 rounded-lg text-black">Chat</button>
+            <button className="w-40 bg-blue-500 text-white rounded-lg">
               Follow
             </button>
           </div>
