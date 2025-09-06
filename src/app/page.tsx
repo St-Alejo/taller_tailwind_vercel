@@ -35,7 +35,7 @@ export default function Home() {
       </article>
       
       
-      <nav className="col-span-2 bg-white p-4 rounded-2xl shadow-md flex flex-col gap-6">
+      <nav className="col-span-3 bg-white p-4 rounded-2xl shadow-md flex flex-col gap-6">
         <button className="text-left px-3 py-2 rounded-lg hover:bg-gray-100 text-black">
           🌍 Global
         </button>
@@ -73,7 +73,7 @@ export default function Home() {
       </article>
 
       
-      <section className="col-span-5 bg-white p-4 rounded-2xl shadow-md flex flex-col">
+      <section className="col-span-6 bg-white p-4 rounded-2xl shadow-md flex flex-col">
         <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
           <input
             type="search"
@@ -85,7 +85,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="flex gap-16 mt-3 text-lg font-semibold text-gray-500">
+        <div className="flex gap-14 mt-3 text-lg font-semibold text-gray-500">
           <span>#Politics</span>
           <span>#Science</span>
           <span>#Movies</span>
@@ -130,8 +130,8 @@ export default function Home() {
             <span className="flex flex-col items-center">Rating: <strong className="text-2xl">8.9</strong></span>
           </div>
           <div className="flex gap-3 mt-3">
-            <button className="w-30 p-4 bg-gray-200 rounded-lg text-black">Chat</button>
-            <button className="w-30 bg-blue-500 text-white rounded-lg">
+            <button className="w-40 p-4 bg-gray-200 rounded-lg text-black">Chat</button>
+            <button className="w-40 bg-blue-500 text-white rounded-lg">
               Follow
             </button>
           </div>
